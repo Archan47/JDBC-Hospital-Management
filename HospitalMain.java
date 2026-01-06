@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class HospitalMain {
     private static final String url = "jdbc:mysql://localhost:3306/hospital";
     private static final String username = "root";
-    private static final String password = "Archan@2002";
+    private static final String password = "Enter your password";
 
     public static void main(String[] args) {
         try{
@@ -118,4 +118,5 @@ public class HospitalMain {
         }
         return false;
     }
+
 }
